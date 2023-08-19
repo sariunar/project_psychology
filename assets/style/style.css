@@ -756,6 +756,8 @@ h6 {
     .contacts__media-list {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        padding:0;
     }
 
     .footer {
