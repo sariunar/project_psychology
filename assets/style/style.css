@@ -589,10 +589,6 @@ h6 {
         margin-top: -40px;
     }
 
-    .Myjob__photo {
-        width: 60%;
-    }
-
     .about__title {
         margin-bottom: 50px;
     }
@@ -639,6 +635,12 @@ h6 {
 
 /* MOBILE */
 @media screen and (max-width: 789px) {
+    .menu__box {
+        width: 100%;
+    }
+    .menu__item {
+        font-size: 1.5em;
+    }
     h2 {
         font-size: 1.5em;
         line-height: 36px;
@@ -686,10 +688,6 @@ h6 {
         margin-top: -40px;
     }
 
-    .Myjob__photo {
-        width: 60%;
-    }
-
     .about__title {
         margin-bottom: 50px;
     }
@@ -700,9 +698,6 @@ h6 {
         text-align: center;
     }
 
-    .about__image {
-        width: 50%;
-    }
 
     .about__content li {
         text-align: start;
@@ -762,5 +757,12 @@ h6 {
         text-align: center;
         margin-top: -50px;
     }
-    
+    .footer__media-social li{
+        z-index: -100;
+    }
+    .reviews__top {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 20px;
+    }
 }
