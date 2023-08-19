@@ -38,7 +38,8 @@ img:hover {
     opacity: 0.9;
 }
 
-.contacts__media-mobile {
+.contacts__media-mobile,
+.background {
     display: none;
 }
 
@@ -638,9 +639,11 @@ h6 {
     .menu__box {
         width: 100%;
     }
+
     .menu__item {
         font-size: 1.5em;
     }
+
     h2 {
         font-size: 1.5em;
         line-height: 36px;
@@ -651,24 +654,26 @@ h6 {
     }
 
     .hero__container {
-        background-size: contain;
-        background-color: yellowgreen;
+        background: none;
     }
 
-    .hero__text {
-        display: flex;
-        flex-direction: column;
+    .background {
+        display: block; 
+        width: 100%;
+        opacity: 0.4;
     }
 
     .hero__title {
         margin-top: 60px;
-        margin-left: 30%;
+        margin-left: 0%;
         font-size: 2.5em;
+        z-index: 10;
     }
 
     .hero__btn {
-        margin-top: 45vh;
-        margin-right: 30%;
+        position: absolute;
+        margin-top: 120px;
+        margin-right: 0%;
     }
 
     .Myjob__container {
@@ -697,7 +702,6 @@ h6 {
         flex-direction: column;
         text-align: center;
     }
-
 
     .about__content li {
         text-align: start;
@@ -748,18 +752,22 @@ h6 {
     .contacts__media-mobile {
         display: block;
     }
-    .contacts__media-list{
+
+    .contacts__media-list {
         display: flex;
         flex-direction: row;
     }
+
     .footer {
         flex-direction: column;
         text-align: center;
         margin-top: -50px;
     }
-    .footer__media-social li{
+
+    .footer__media-social li {
         z-index: -100;
     }
+
     .reviews__top {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
