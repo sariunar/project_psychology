@@ -550,8 +550,9 @@ h6 {
         margin-right: 50px;
     }
 
-    .menu__box {
+    .menu__box, .header__menu--narrow {
         width: 70%;
+        z-index: 1000;
     }
 
     .hero__container {
@@ -637,9 +638,13 @@ h6 {
 
 /* MOBILE */
 @media screen and (max-width: 790px) {
-    .menu__box {
+    .menu__box, .header__menu--narrow {
         width: 100%;
+        z-index: 100;
     }
+
+    .menu__btn{
+        z-index: 1000;}
 
     .menu__item {
         font-size: 1.5em;
@@ -666,13 +671,14 @@ h6 {
         top: 1%;
         margin-left: 0%;
         font-size: 2.5em;
-        z-index: 10;
+        z-index: 0;
     }
 
     .hero__btn {
         position: relative;
         margin-top: 480px;
         margin-right: 0%;
+        z-index: 0;
     }
 
     .Myjob__container {
