@@ -646,7 +646,7 @@ h6 {
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.4em;
         line-height: 36px;
     }
 
@@ -675,10 +675,6 @@ h6 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .Myjob__container h2 {
-        text-align: center;
     }
 
     .Myjob__left {
