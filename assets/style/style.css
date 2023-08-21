@@ -645,6 +645,10 @@ h6 {
         font-size: 1.5em;
     }
 
+    .header__logo {
+        margin-left: 0%;
+    }
+
     h2 {
         font-size: 1.4em;
         line-height: 36px;
